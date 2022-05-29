@@ -1,8 +1,11 @@
 import React from 'react'
 
-function TodoItem() {
+function TodoItem({todo}) {
   return (
-    <div>TodoItem</div>
+    <div>
+      <h4>{todo.title}</h4>
+      <p>{todo.desc}</p>
+    </div>
   )
 }
 
